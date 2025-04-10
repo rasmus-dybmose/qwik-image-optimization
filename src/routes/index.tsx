@@ -1,11 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import ImageWrapper from "~/components/image-wrapper/image-wrapper";
+import Cat1 from "~/media/cat1.jpg?jsx";
+import Cat2 from "~/media/cat2.jpg?jsx";
 
 export default component$(() => {
   return (
     <>
-      <ImageWrapper />
+      <Cat1 />
+      <Cat2 />
     </>
   );
 });
